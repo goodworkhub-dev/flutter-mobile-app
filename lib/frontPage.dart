@@ -4,6 +4,7 @@ class frontPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
             body:Center(
               child:Column(
@@ -15,7 +16,7 @@ class frontPage extends StatelessWidget {
                   SizedBox(height: 20),
                   ElevatedButton(
                     onPressed: (){
-
+                        Navigator.pushNamed(context, '/signup');
                     },
                     style: ElevatedButton.styleFrom(
                         primary: Color(0xFF867BF2),
@@ -34,7 +35,7 @@ class frontPage extends StatelessWidget {
                   SizedBox(height: 20),
                   ElevatedButton(
                     onPressed: (){
-
+                      Navigator.pushNamed(context, '/login');
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Color(0xFF867BF2),
