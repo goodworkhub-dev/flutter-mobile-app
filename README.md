@@ -1,6 +1,6 @@
 # cloning the repo
 
-For the project, clone the repo using the following command in your desired directory \n
+For the project, clone the repo using the following command in your desired directory <br>
 git clone git@github.com:goodworkhub-dev/flutter-mobile-app.git
 
 # starting the project
