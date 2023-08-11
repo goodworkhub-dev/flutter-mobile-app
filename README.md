@@ -1,16 +1,11 @@
-# flutter_mobile_app
+# cloning the repo
 
-A new Flutter project.
+For the project, clone the repo using the following command in your desired directory
+git clone git@github.com:goodworkhub-dev/flutter-mobile-app.git
 
-## Getting Started
+# starting the project
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- install android studio
+- for the virtual device, u can use android studio by opening the virtual devices
+- for mac, you can run "open -a Simulator" for iphone simulation
+- Once you have opened the android or ios simulator, use this command to run the project -> "flutter run"
