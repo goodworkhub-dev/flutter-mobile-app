@@ -1,3 +1,12 @@
+// Component for Login page
+// first - Login text
+// second - company's image logo
+// third - input box for email
+// forth - input box for password
+// fifth - login submit button
+// sixth - row for asking whether user is new and navigator to sign up page
+// for the funtionalities we have to implement code at onPresss() {} functions
+
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -11,6 +20,7 @@ class LoginPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              // first - Login text
               Text("Login",style: TextStyle(
                 color: Color(0xFF867BF2),
                 fontSize: 30,
@@ -18,11 +28,13 @@ class LoginPage extends StatelessWidget {
               ),
               ),
               SizedBox(height: 10),
+              // second - company's image logo
               Image.asset("assets/images/gwh.png",
                 width: 150,
                 height: 150,
               ),
               SizedBox(height: 10),
+              // third - input box for email
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 40),
                 margin: EdgeInsets.only(top: 20.0),
@@ -43,6 +55,7 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
               ),
+              // forth - input box for password
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 40),
                 margin: EdgeInsets.only(top: 20.0),
@@ -65,6 +78,7 @@ class LoginPage extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 10),
+              // fifth - login submit button
               Container(
                 margin: EdgeInsets.all(30),
                 width: double.infinity,
@@ -86,6 +100,7 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
               ),
+              // sixth - row for asking whether user is new and navigator to sign up page
               Container(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
