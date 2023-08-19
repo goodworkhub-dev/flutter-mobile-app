@@ -21,7 +21,9 @@ class LoginPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               // first - Login text
-              Text("Login",style: TextStyle(
+              Text("Login",
+                key: Key('login_title'),
+                style: TextStyle(
                 color: Color(0xFF867BF2),
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
@@ -83,6 +85,7 @@ class LoginPage extends StatelessWidget {
                 margin: EdgeInsets.all(30),
                 width: double.infinity,
                 child: ElevatedButton(
+                  key: Key('login_button'),
                   onPressed: () {
                     // Add your button click logic here
                   },

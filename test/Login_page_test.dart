@@ -22,7 +22,7 @@ void main() {
     );
 
     //Verify that Login text is displayed
-      expect(find.text('Login'), findsOneWidget);
+      expect(find.byKey(Key('login_title')), findsOneWidget);
 
 
     //Verify that Email input box is displayed
@@ -34,7 +34,7 @@ void main() {
 
 
     //Verify that Login button is displayed
-    expect(find.text('Login'), findsOneWidget);
+    expect(find.byKey(Key('login_button')), findsOneWidget);
 
     //Verify that the "Does you have an account" is displayed
     expect(find.text('Are you new here? '), findsOneWidget);
